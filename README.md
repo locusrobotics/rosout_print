@@ -27,3 +27,7 @@ Convert rosout_agg messages to text forms:
   --no-color                        do not colorize the output
 ```
 
+ROS 2 port
+---------
+A ROS 2 port of this utility is available in the project: [clearpath_ros2cli](https://github.com/clearpathrobotics/clearpath_ros2cli) 
+
