@@ -12,11 +12,9 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <depend>rosbag</depend>
-  <depend>rosbag_manager_msgs</depend>
   <depend>roscpp</depend>
   <depend>rosgraph_msgs</depend>
 
   <test_depend>catkin_clang_format</test_depend>
   <test_depend>rostest</test_depend>
-  <test_depend>rosbag_manager</test_depend>
 </package>

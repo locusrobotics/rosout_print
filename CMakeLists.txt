@@ -3,7 +3,6 @@ project(rosout_print)
 
 find_package(catkin REQUIRED COMPONENTS
   rosbag
-  rosbag_manager_msgs
   roscpp
   rosgraph_msgs
 )
@@ -51,22 +50,22 @@ install(TARGETS rosout_print
 #############
 ## Testing ##
 #############
-if (CATKIN_ENABLE_TESTING)
-  find_package(catkin_clang_format)
-  catkin_clang_lint_cpp()
-  catkin_clang_format_cpp()
-  catkin_clang_lint_add_test()
-endif()
-
-
-if(CATKIN_ENABLE_TESTING)
-  find_package(rostest REQUIRED)
-  find_package(catkin REQUIRED COMPONENTS rosbag)
-
-  catkin_add_nosetests(tests)
-
-  add_rostest_gtest(test_rosout_print tests/rosout_print.test
-    tests/test_rosout_print.cpp src/process_rosout.cpp)
-  target_link_libraries(test_rosout_print ${catkin_LIBRARIES})
-
-endif()
+# FIXME: Disable tests to remove dependency on rosbag_manager and clang format
+# if (CATKIN_ENABLE_TESTING)
+#   find_package(catkin_clang_format)
+#   catkin_clang_lint_cpp()
+#   catkin_clang_format_cpp()
+#   catkin_clang_lint_add_test()
+# endif()
+# 
+# if(CATKIN_ENABLE_TESTING)
+#   find_package(rostest REQUIRED)
+#   find_package(catkin REQUIRED COMPONENTS rosbag)
+# 
+#   catkin_add_nosetests(tests)
+# 
+#   add_rostest_gtest(test_rosout_print tests/rosout_print.test
+#     tests/test_rosout_print.cpp src/process_rosout.cpp)
+#   target_link_libraries(test_rosout_print ${catkin_LIBRARIES})
+# 
+# endif()
