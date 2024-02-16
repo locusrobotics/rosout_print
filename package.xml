@@ -15,6 +15,5 @@
   <depend>roscpp</depend>
   <depend>rosgraph_msgs</depend>
 
-  <test_depend>catkin_clang_format</test_depend>
   <test_depend>rostest</test_depend>
 </package>
