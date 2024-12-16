@@ -30,6 +30,7 @@
 #ifndef ROSOUT_PRINT_PROCESS_ROSOUT_H
 #define ROSOUT_PRINT_PROCESS_ROSOUT_H
 
+#include <cstdint>
 #include <map>
 #include <string>
 
