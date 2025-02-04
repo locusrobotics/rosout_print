@@ -2,6 +2,12 @@
 Changelog for package rosout_print
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Added missing include (#1)
+  Co-authored-by: Stephen Williams <swilliams@locusrobotics.com>
+* Contributors: Gary Servin
+
 0.2.0 (2024-09-16)
 ------------------
 
