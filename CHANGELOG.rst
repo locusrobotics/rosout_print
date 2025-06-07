@@ -2,6 +2,9 @@
 Changelog for package rosout_print
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.3.0 (2025-02-04)
 ------------------
 * Added missing include (#1)
